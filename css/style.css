@@ -1,0 +1,19 @@
+:root {
+  --color-body: rgb(51, 0, 58);
+  --color-text: rgb(245, 157, 248);
+}
+
+body {
+  background: var(--color-body);
+}
+
+#MyDigitalClock {
+  color: var(--color-text);
+  font-family: Orbitron;
+  font-size: 67px;
+  left: 50%;
+  letter-spacing: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
